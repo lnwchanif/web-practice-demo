@@ -67,9 +67,22 @@ const hideMobileMenu = () =>{
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
-var typed = new Typed(".autoType", {
-    strings: ["Enemies", "Rage", "Weapons"],
+var typed = new Typed('.autoType', {
+    strings: ['Enemies', 'Rage', 'Weapons'],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
 })
+
+/*Scroll to Top Button */
+
+/*call button__to--top */
+let button = document.getElementById("button__to--top");
+
+/**if the user clicks the button, scroll to the top of page  */
+
+function topFunction() {
+    document.body.scrollTop = 0; /**For Safari */
+    document.documentElement.scrollTop = 0; /**For Chrome, Firefox, ME, and Opera */
+}
+

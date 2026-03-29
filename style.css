@@ -9,11 +9,45 @@
 
 }
 
+/*Scroll to Top Button*/
+#button__to--top{
+    background-color: #dd1818;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 99;
+}
+
+#button__to--top:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-in;
+    filter: invert(100%);
+
+}
+
+#arrow__value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    color: #ffffff;
+
+}
 /*Auto Show Animation*/
 /*!!! FIREFOX DOES NOT SUPPORT ANIMATION-TIMELINE !!!*/
 .autoShow {
     animation: autoShowAnimation both;
-    animation-timeline: view(auto auto);
+    animation-timeline: view(40% 5%);
     animation-range: entry 20% cover 100vh;
 }
 
@@ -319,6 +353,7 @@
     background: rbg(0, 0, 0);
     /* background: linear-gradient(to right, #9bffa3, #ff8b8b);   */
      padding: 200px 0;
+     scroll-margin-top: 80px;
 }
 
 /*Background video*/
@@ -422,6 +457,7 @@
 .main {
     background-color: #000000;
     padding: 5rem 0;
+    scroll-margin-top: 70px;
 }
 
 .main__container{
