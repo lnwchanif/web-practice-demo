@@ -376,6 +376,13 @@
     -moz-text-fill-color:transparent;
 }
 
+.typed-cursor {
+    opacity: 1;
+    color: rgb(255, 255, 255) !important;
+    background: none !important;
+    -webkit-text-fill-color: #fff !important;
+}
+
 .hero__description{
     font-size: 60px;
     background: #bebebe;
