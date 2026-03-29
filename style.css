@@ -382,7 +382,7 @@
 }
 
 .hero__container{
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -397,9 +397,18 @@
     font-size: 100px;
     margin-bottom: 24px;
     color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
 }   
+.hero__heading .static-text{
+    color: #fff !important;
+    text-shadow: 2px 2px 12px #000000;
+}
 
-.hero__container span{
+.autoType{
     background: #bebebe; /*falls back for old browser*/
     background: -webkit-linear-gradient(to right, #711e15, #ed213a);
     background: linear-gradient(to right,#711e15, #ed213a);
@@ -409,6 +418,7 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+
 }
 
 .typed-cursor {
@@ -416,6 +426,7 @@
     color: rgb(255, 255, 255) !important;
     background: none !important;
     -webkit-text-fill-color: #fff !important;
+
 }
 
 .hero__description{

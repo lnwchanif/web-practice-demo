@@ -71,7 +71,7 @@ var typed = new Typed('.autoType', {
     strings: ['Enemies', 'Rage', 'Weapons'],
     typeSpeed: 100,
     backSpeed: 100,
-    loop: true
+    loop: true,
 })
 
 /*Scroll to Top Button */
