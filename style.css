@@ -13,7 +13,7 @@
 /*!!! FIREFOX DOES NOT SUPPORT ANIMATION-TIMELINE !!!*/
 .autoShow {
     animation: autoShowAnimation both;
-    animation-timeline: view(auto auto);
+    animation-timeline: view(40% 5%);
     animation-range: entry 20% cover 100vh;
 }
 
@@ -319,6 +319,7 @@
     background: rbg(0, 0, 0);
     /* background: linear-gradient(to right, #9bffa3, #ff8b8b);   */
      padding: 200px 0;
+     scroll-margin-top: 80px;
 }
 
 /*Background video*/
@@ -422,6 +423,7 @@
 .main {
     background-color: #000000;
     padding: 5rem 0;
+    scroll-margin-top: 70px;
 }
 
 .main__container{
