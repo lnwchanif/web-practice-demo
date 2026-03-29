@@ -278,7 +278,7 @@
     }
 
     #mobile-menu.is-active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(45deg);
     }
     /*nothing happen bc we need JS to make it work*/
 
@@ -681,6 +681,20 @@
     }
     
 }
+
+.viedo__container {
+    width: 800px;
+    max-width: 100%;
+    margin: 3rem 0;
+}
+
+iframe {
+	aspect-ratio: 16 / 9;
+	height: auto;
+	width: 100%;
+}
+
+
 
 
 @media screen and (max-width: 768px) {
