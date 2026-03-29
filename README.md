@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Demo Web 
+=======
+#Demo Web 
+>>>>>>> 5acb661b5a173de9c381d9d34ab1915f76fa544e
  
  http://lnwchanif.github.io/web-practice-demo/
 
