@@ -13,18 +13,19 @@
 /*!!! FIREFOX DOES NOT SUPPORT ANIMATION-TIMELINE !!!*/
 .autoShow {
     animation: autoShowAnimation both;
-    animation-timeline: view(75% auto);
+    animation-timeline: view(auto auto);
+    animation-range: entry 20% cover 100vh;
 }
 
 @keyframes autoShowAnimation{
     from{
         opacity: 0;
-        transform: translateY(200px) scale(0.3);
+        transform: translateY(100px);
     }
 
     to {
         opacity: 1;
-        transform: translateY(0) scale(1);
+        transform: translateY(0);
     }
 }
 
