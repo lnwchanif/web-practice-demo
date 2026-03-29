@@ -66,3 +66,10 @@ const hideMobileMenu = () =>{
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+var typed = new Typed(".autoType", {
+    strings: ["Enemies", "Rage", "Weapons"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    loop: true
+})

@@ -318,7 +318,7 @@
     overflow: hidden;
     background: rbg(0, 0, 0);
     /* background: linear-gradient(to right, #9bffa3, #ff8b8b);   */
-    padding: 200px 0;
+     padding: 200px 0;
 }
 
 /*Background video*/
@@ -328,6 +328,7 @@
     bottom: 0;
     z-index: -1;
     object-fit: cover;
+
 }
 
 /*Responsive size for video background*/
@@ -361,18 +362,18 @@
     font-size: 100px;
     margin-bottom: 24px;
     color: #fff;
-}
+}   
 
 .hero__container span{
     background: #bebebe; /*falls back for old browser*/
-    background: -webkit-linear-gradient(to right, #93291e, #ed213a);
-    background: linear-gradient(to right,#93291e, #ed213a);
-    color: #fff;
+    background: -webkit-linear-gradient(to right, #711e15, #ed213a);
+    background: linear-gradient(to right,#711e15, #ed213a);
+    /* color: #fff; */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent
+    -moz-text-fill-color:transparent;
 }
 
 .hero__description{
@@ -385,7 +386,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent
+    -moz-text-fill-color:transparent;
 }
 
 .highlight {
@@ -401,6 +402,12 @@
     .hero__description{
         font-size: 40px;
     }
+
+    .autoType::before {
+        content: "";
+        display: block; /* forces line break */
+    }
+    
 }
 
 /**About me Section**/
@@ -453,7 +460,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color:transparent
+    -moz-text-fill-color:transparent;
 }
 
 .main__content p {
