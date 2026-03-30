@@ -399,7 +399,7 @@
     color: #fff;
     text-align: center;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
     gap: 10px;
 }   
@@ -418,6 +418,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
+    display: inline-block;
+    min-width: 220px;
 
 }
 
