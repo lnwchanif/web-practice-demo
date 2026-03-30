@@ -398,10 +398,10 @@
     margin-bottom: 24px;
     color: #fff;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    /* gap: 10px; */
 }   
 .hero__heading .static-text{
     color: #fff !important;
@@ -418,8 +418,8 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color:transparent;
-    display: inline-block;
-    min-width: 220px;
+    /* display: inline-block;
+    min-width: none; */
 
 }
 
